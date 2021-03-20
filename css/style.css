@@ -1,0 +1,258 @@
+.menu {
+	justify-content: space-around;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background-color:Black;
+	height: auto;
+	padding: 2vh;
+	margin: 0;
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 1vw 10vw;
+	overflow: hidden;
+	float: right;
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a{
+	font-size: 2vw;
+	text-decoration: none;
+	padding: 1vw;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color :yellow;
+	font-weight:bolder;
+}
+
+.menu ul li a:hover{
+	color:white;
+	text-decoration:overline;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+main {
+	padding-top:15vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.intro{
+	display:flex;
+}
+.intro-left {
+	float: left;
+	text-align: center;
+	width: 40%;
+	height: auto;
+}
+
+.intro-right {
+	float: right;
+	text-align: center;
+	width: 60%;
+	height: auto;
+}
+.intro-left h1{
+	font-size: 8vw;
+	color:aliceblue;
+	margin: 0;
+	line-height: normal;
+}
+
+.intro-left h1 span {
+	color:yellow;
+	font-weight: 100;
+}
+
+.intro-left h2{
+	color:white;
+	font-weight: 100;
+	font-size: 2vw;
+}
+
+.intro-left h2 span{
+	color: yellow;
+}
+
+.intro-right img{
+	width: 80%; 
+	height: auto;
+	border-radius: 2vh;
+}
+
+.education {
+	text-align: center;
+	display: contents;
+}
+
+.education .title {
+	color: white;
+	font-size: 2.5vw;
+	font-weight:100;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.education .items{
+	text-align: left;
+}
+.education .items h1{
+	color: white;
+	text-align: center;
+	font-size: 2vw;
+	border-top:dotted;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-left: 30vw;
+	margin-right: 30vw;
+}
+.education .items h2 {
+	color: white;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.working-experience .title {
+	color: white;
+	font-size: 2.5vw;
+	font-weight:100;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.working-experience {
+	text-align: center;
+	display: contents;
+}
+.working-experience .items{
+	text-align: left;
+}
+.working-experience .items h1{
+	color: white;
+	text-align: center;
+	font-size: 2vw;
+	border-top:dotted;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-left: 30vw;
+	margin-right: 30vw;
+}
+.working-experience .items h2 {
+	color: white;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.container {
+	display: flex;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+.container .container-left {
+	text-align: left;
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-left: 10vw;
+	border-right: solid white;
+}
+.container .container-right {
+	text-align: left;
+	width: 50%;
+	height: auto;
+	float:right;
+	padding-left: 10vw;
+}
+.container h1{
+	color: yellow;
+	font-size: 2.5vw;
+}
+.container ul li{
+	color: white;
+	font-size: 1.5vw;
+	list-style-type:circle;
+}	
+footer {
+	color: black;
+	text-align: center;
+   	padding-top: 1.5vh;;
+	padding-bottom: 1.5vh;
+	font-size: 1vw;
+	background-color: yellow;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 3vh;
+}
+
+footer article{
+	font-weight: bolder;
+}
+
+main .branding{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+main .branding h1{
+	color : White;
+	font-size: 5vw;
+	text-align: center;
+}
+main .printing{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+main .printing h1{
+	color : White;
+	font-size: 5vw;
+	text-align: center;
+}
+main .branding h2{
+	color : white;
+	font-size: 3vw;
+	text-align: left;
+}
+
+main .printing a {
+	line-height: 2vw;
+}
+main .branding a {
+	line-height: 2vw;
+}
+main .advertising a {
+	line-height: 2vw;
+}
+main .printing a img{
+	border-radius: 2vw;
+	width: 60%;
+	height: auto;
+}
+main .branding a img{
+	border-radius: 2vw;
+	width: 60%;
+	height: auto;
+}
+main .advertising h1 {
+	color : White;
+	font-size: 5vw;
+	text-align: center;
+}
+main .advertising h2{
+	color : white;
+	font-size: 3vw;
+	text-align: left;
+}
+main .advertising{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+main .advertising a img{
+	width: 30%;
+	height: auto;
+	border-radius: 2vw;
+}
